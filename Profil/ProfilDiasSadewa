@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Profil — Dias Sadewa</title>
+  <style>
+    :root{--bg:#f5f7fb;--card:#fff;--muted:#6b7280;--accent:#0ea5a4}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:var(--bg); color:#111}
+    .container{max-width:900px;margin:40px auto;padding:24px}
+    .card{background:var(--card);border-radius:14px;box-shadow:0 8px 30px rgba(16,24,40,0.06);overflow:hidden;display:flex;gap:24px;align-items:center;padding:28px}
+    .avatar{flex:0 0 160px;display:flex;align-items:center;justify-content:center}
+    .avatar .img{width:140px;height:140px;border-radius:12px;background:linear-gradient(135deg,#e6fffa,#cffafe);display:flex;align-items:center;justify-content:center;font-weight:700;color:#064e4e}
+    .info{flex:1}
+    h1{margin:0;font-size:24px}
+    .subtitle{color:var(--muted);margin-top:6px;font-size:14px}
+    .meta{display:flex;gap:12px;margin-top:14px;flex-wrap:wrap}
+    .meta .pill{background:#f1f5f9;padding:8px 12px;border-radius:999px;font-size:13px;color:#0f172a}
+    .section{margin-top:22px}
+    .section h3{margin:0 0 8px 0;font-size:16px}
+    .list{margin:0;padding:0;list-style:none}
+    .list li{padding:8px 0;border-top:1px solid #f3f4f6;color:#111}
+    .contact{display:flex;gap:12px;flex-wrap:wrap;margin-top:10px}
+    .contact a{text-decoration:none;color:var(--accent);font-weight:600}
+    footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+    @media (max-width:640px){.card{flex-direction:column;align-items:flex-start}.avatar{width:100%}.avatar .img{width:120px;height:120px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="avatar">
+        <div class="img" aria-hidden="true">DS</div>
+      </div>
+      <div class="info">
+        <h1>Dias Sadewa</h1>
+        <div class="subtitle">D3 Sistem Informasi — Fakultas Ilmu Terapan, Telkom University</div>
+
+        <div class="meta">
+          <div class="pill">Jurusan: D3 Sistem Informasi</div>
+          <div class="pill">Fakultas: Fakultas Ilmu Terapan</div>
+          <div class="pill">Universitas: Telkom University</div>
+        </div>
+
+        <div class="section">
+          <h3>Tentang Saya</h3>
+          <p style="margin:0;color:var(--muted)">Saya mahasiswa D3 Sistem Informasi di Fakultas Ilmu Terapan — Telkom University. Tertarik pada pengembangan aplikasi, analisis data, dan solusi TI yang berdampak nyata. Saat ini aktif mempelajari bahasa pemrograman, basis data, dan konsep UX dasar.</p>
+        </div>
+
+        <div class="section">
+          <h3>Keahlian</h3>
+          <ul class="list">
+            <li>Dasar Pemrograman: Python, Java, Dart (Flutter)</li>
+            <li>Basis Data: MySQL, PostgreSQL</li>
+            <li>Web & API: HTML/CSS, JavaScript, Laravel (PHP)</li>
+            <li>Alat & Lainnya: Git, GitHub, VS Code</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h3>Kontak</h3>
+          <div class="contact">
+            <a href="#">email@example.com</a>
+            <a href="#">+62 812-3456-7890</a>
+            <a href="#">LinkedIn / GitHub (opsional)</a>
+          </div>
+        </div>
+
+        <footer>Profil ini dibuat otomatis — jika ingin ditambah foto, portofolio, atau disesuaikan, beri tahu saya.</footer>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sytle5.css">
+</head>
+
+<body>
+    <header>
+        <h1>Demon Slayer</h1>
+        <p>Pembasmi Iblis vs Iblis Terkuat</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Artikel</a>
+        <a href="#">Kontak</a>
+    </nav>
+
+
+
+    <main class="container">
+        <div class="card">
+            <img src="/Doma-Demon-Slayer.jpg" alt="AI">
+            <h3>Douma</h3>
+            <p>Iblis Bulan Atas 2</p>
+
+
+        </div>
+
+        <div class="card1 ">
+            <img src="/maxresdefault.jpg" alt="Cloud">
+            <h3>Muzan</h3>
+            <p>Ketua Iblis Bulan Atas Dan Bawah</p>
+
+        </div>
+
+        <div class="card2">
+            <img src="/thumb-1920-1273717.jpg" alt="AI">
+            <h3>Kokoshibo</h3>
+            <p>Iblis Bulan Atas Pertama</p>
+
+
+        </div>
+        <div class="card3">
+            <img src="/tanjiro-in-a-a-wisteria-forest-demon-slayer.jpg" alt="Cloud">
+            <h3>Tanjiro</h3>
+            <p>Pembasmi Iblis Sekaligus MC</p>
+
+        </div>
+
+    </main>
+    <footer>
+        2025 Simple TechNews. All Right Reserved.
+    </footer>
+
+</body>
+
+</html>

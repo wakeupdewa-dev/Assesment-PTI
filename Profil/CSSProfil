@@ -1,0 +1,82 @@
+/* 1. Layout dasar menggunakan Flexbox */
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* 2. Styling untuk Header, Main, dan Footer */
+header {
+    background-color: #1e90ff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;     /* agar tetap di atas saat di-scroll */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+/* Agar konten tidak tertutup header */
+main {
+    margin-top: 140px; 
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Styling Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* 3. Flexbox untuk navigasi di dalam Header */
+nav {
+    display: flex;
+    justify-content: center; /* link di tengah */
+    gap: 20px;               /* jarak antar link */
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* 4. Gambar mengambang di kiri dan teks di samping */
+main img {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* 5. Media Query untuk layar kecil (mobile) */
+@media (max-width: 700px) {
+    nav {
+        flex-direction: column;   /* ubah menjadi vertikal */
+        align-items: center;
+    }
+
+    footer {
+        background-color: lightgray; /* warna berbeda di mobile */
+        color: black;
+    }
+
+    main img {
+        float: none;      /* gambar tidak mengambang di mobile */
+        display: block;
+        margin: 0 auto 15px auto;
+    }
+}
